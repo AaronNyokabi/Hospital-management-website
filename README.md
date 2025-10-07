@@ -1,1 +1,1 @@
-# Hospital-management-website
+This hospital management website streamlines healthcare operations by integrating patient registration, appointment scheduling, doctor management, and medical records. It enhances communication, improves efficiency, and ensures seamless coordination between patients, doctors, and administrators for effective hospital service delivery and better patient care.# Hospital-management-website
