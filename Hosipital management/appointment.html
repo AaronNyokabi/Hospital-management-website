@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment | LifeCare Hospital</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="shortcut icon" href="icons/Appointment.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">LifeCare Hospital</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="Homepage.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="appointment.html">appointment</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="Admin.html">Admin</a></li>
+        <li class="nav-item"><a class="nav-link" href="Admin Dashboard.html">Admin Dashbaord</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Appointment Section -->
+<section class="py-5 mt-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary">Book an Appointment</h2>
+      <p class="text-muted">Fill out the form below to schedule your hospital visit with our specialists.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow-lg border-0 rounded-4">
+          <div class="card-body p-4 p-md-5">
+            <form class="row g-4">
+              <!-- Full Name -->
+              <div class="col-md-6">
+                <label for="fullname" class="form-label fw-semibold text-secondary">Full Name</label>
+                <input type="text" id="fullname" class="form-control form-control-lg" placeholder="Enter your full name" required>
+              </div>
+
+              <!-- Email -->
+              <div class="col-md-6">
+                <label for="email" class="form-label fw-semibold text-secondary">Email</label>
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="example@email.com" required>
+              </div>
+
+              <!-- Department -->
+              <div class="col-md-6">
+                <label for="department" class="form-label fw-semibold text-secondary">Department</label>
+                <select id="department" class="form-select form-select-lg" required>
+                  <option selected disabled>Select Department</option>
+                  <option>Cardiology</option>
+                  <option>Neurology</option>
+                  <option>Pediatrics</option>
+                  <option>Orthopedics</option>
+                  <option>Radiology</option>
+                </select>
+              </div>
+
+              <!-- Date -->
+              <div class="col-md-6">
+                <label for="date" class="form-label fw-semibold text-secondary">Preferred Date</label>
+                <input type="date" id="date" class="form-control form-control-lg" required>
+              </div>
+
+              <!-- Notes -->
+              <div class="col-12">
+                <label for="message" class="form-label fw-semibold text-secondary">Additional Notes</label>
+                <textarea id="message" rows="4" class="form-control form-control-lg" placeholder="Any specific concern or request?"></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="col-12 text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                  <i class="bi bi-calendar-check me-2"></i>Book Appointment
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer (STATIC at the bottom) -->
+<footer class="bg-dark text-light text-center py-3">
+  <p class="mb-0">&copy; 2025 LifeCare Hospital Management. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
